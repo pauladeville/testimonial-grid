@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+    color: hsl(0, 0%, 81%);
+    padding: 10% 0;
+}
+.card:nth-child(1){
+    background-color:hsl(263, 55%, 52%);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top 0 right 20px;
+}
+.card:nth-child(2){
+    background-color:hsl(217, 19%, 35%);
+}
+.card:nth-child(3), .card:nth-child(5){
+    background-color: white;
+    color: hsl(217, 19%, 35%);
+
+}
+.card:nth-child(4){
+    background-color: hsl(219, 29%, 14%);
+}
+.card{
+    width: 250px;
+    margin: 26px auto;
+    border-radius: 8px;
+    padding: 25px 30px 30px 30px;
+}
+.card-who{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.card-who img{
+    border-radius: 50%;
+    border: hsla(0, 0%, 81%, 0.502) solid 2px;
+    width: 28px;
+    margin-right: 15px;
+}
+.card-who-text h2 {
+    font-size: 13px;
+}
+.card-who-text h3{
+    opacity: 50%;
+    font-size: 11px;
+}
+.card-what h1{
+    margin: 20px 0;
+    font-size: 20px;
+    color: white;
+    opacity: 90%;
+}
+.card-what p{
+    opacity: 70%;
+    line-height: 18px;
+    font-weight: 600;
+}
